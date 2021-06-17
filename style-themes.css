@@ -107,7 +107,13 @@ a:focus {
    height: 147px;
    border-radius: 50%;
  }
-
+.heart {
+  position: relative;
+  background: url(likee.svg) no-repeat top right;
+  overflow: hidden; 
+  width: 55px; 
+  height: 55px;
+}
 .about-content {
    width: 410px;
    font-size: 14px;
