@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-themes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+.fa:hover {
+  color: rgb(247, 51, 83);
+}
+</style>
+  <title>Мой сайт – Express </title>
+</head>
+<body class="page">
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">Cайт для AnnLee </h1>
+      <p><i>По всем вопросам пишите:</i><br><a href="mailto:vetal.express@gmail.com">vetal.express@gmail.com</a></p>
+      <button class="theme-button" type="button">Изменить тему</button>
+    </div>
+  </header>
+  <main>
+    <section class="about container">
+      <h2 class="section-title">Привет, я Юный Верстальщик - Виталик!</h2>
+      <img class="about-image" src="XOsX.gif" width="147" height="147" alt="Неопознанный енот">
+      <div class="about-content">
+        <p>Работаем на контракте в Турции в коллективе ActionStreet ! </p>
+        <p>С  <a href="annlee.jpg">AnnLee </a>задротики в MobileLegends !</p>
+      </div>
+    </section>
+    <article class="container">
+      <h1 class="inner-heading">🔥 Шок! Скандал! Сенсация!</h1>
+      <div class="news-full">
+        <img src="annlee.jpg" width="550" height="650" alt="Анечка">
+        <pre><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></pre>
+        <script>
+       function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");
+}
+        </script>
+        <div class="news-stats">
+          <button class="heart" type="button"><span class="likes-number">0</span></button>
+          <time datetime="2019-12-22">17 июня 2021</time>
+        </div>
+        <p>Анечка во всей своей красе. Поставь ей "ЛАЙК"</p>
+      </div>
+    </article>
+    <section class="status container">
+      <h2 class="section-title">Мой статус</h2>
+      <p>#яжверстальщик!</p>
+    </section>
+    <section class="contacts container">
+      <h2 class="section-title">Контакты для связи</h2>
+        <p class="contacts-name">Express Programist</p>
+        <p><i>email:</i> <a href="mailto:vetal.express@gmail.com">vetal.express@gmail.com</a></p>
+        <p><i>телефон:</i> <a href="tel:+7978111111">+7978111111</a></p>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <p>© Express Programist - Vitaliy </p>
+      <p>2021</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>;
+</body>
+</html>
